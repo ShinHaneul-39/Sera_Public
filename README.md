@@ -1,175 +1,28 @@
-# Sera Discord AI Chatbot
+# Sera - Discord AI Chatbot
 
-A sophisticated Discord AI chatbot powered by **OpenRouter**, featuring advanced memory management, personality adaptation, and intelligent conversation capabilities.
+**Sera**는 인간과 같은 감정을 가지고 대화하며 관계를 형성하는 차세대 디스코드 AI 봇입니다.
+사용자와의 대화를 기억하고, 함께 음악을 듣거나 게임을 즐기며 깊은 유대감을 쌓을 수 있습니다.
 
-## Features
+> **Note**: This repository contains the **obfuscated distribution build** of Sera.
+> The source code is private and protected.
 
-- 🤖 **AI-Powered Conversations**: Advanced natural language processing using OpenRouter (access to Gemini, Claude, GPT-4, etc.)
-- 🧠 **Memory System**: Contextual memory management for personalized interactions
-- 👥 **Personality Adaptation**: Dynamic personality adjustment based on user relationships
-- 🔒 **Security**: Rate limiting, content filtering, and user protection
-- 📊 **Monitoring**: Comprehensive logging and performance monitoring
-- 🗄️ **Database**: Persistent storage with Supabase integration
-- 🎯 **Smart Context**: Intelligent conversation context management
+## ✨ 주요 기능 (Key Features)
 
-## Quick Start
+- **감성적 대화 (Emotional AI)**: 단순한 응답이 아닌, 감정과 성격을 가진 대화
+- **기억 시스템 (Memory System)**: 사용자와의 추억을 기억하고 대화에 반영
+- **멀티미디어 (Multimedia)**: 고품질 음악 재생, 이미지 인식 및 분석
+- **엔터테인먼트 (Fun)**: 끝말잇기, 퀴즈, 미니게임 등 다양한 즐길 거리
 
-### Prerequisites
+## 🔒 라이선스 (License)
 
-- Node.js 18+ 
-- Discord Bot Token
-- OpenRouter API Key
-- Supabase account
+이 소프트웨어의 소스 코드는 **난독화(Obfuscated)**되어 배포되었습니다.
+본 리포지토리의 코드를 무단으로 복제, 리버스 엔지니어링(역분석), 수정 및 재배포하는 것을 금지합니다.
 
-### Installation
+Copyright (c) 2026 Sera Project. All rights reserved.
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd Sera
-```
+## 📞 문의 (Contact)
 
-2. Install dependencies:
-```bash
-npm install
-```
+Sera 봇에 대한 문의나 제안은 아래 채널을 이용해 주세요.
 
-3. Configure environment variables:
-```bash
-cp .env.example .env
-# Edit .env with your configuration
-```
-
-4. Run database migrations:
-```bash
-npm run migrate
-```
-
-5. Start the bot:
-```bash
-npm start
-```
-
-## Development
-
-### Available Scripts
-
-- `npm start` - Start the bot in production mode
-- `npm run dev` - Start the bot in development mode with hot reload
-- `npm run build` - Build the TypeScript code
-- `npm run test` - Run test suite
-- `npm run lint` - Run ESLint
-- `npm run migrate` - Run database migrations
-- `npm run migrate:create` - Create a new migration
-
-### Project Structure
-
-```
-Sera/
-├── src/
-│   ├── types/          # TypeScript type definitions
-│   ├── utils/          # Utility functions and helpers
-│   ├── services/       # Core business logic services
-│   ├── events/         # Discord event handlers
-│   ├── commands/       # Discord slash commands
-│   └── index.ts        # Application entry point
-├── tests/              # Test files
-├── supabase/           # Database migrations
-├── .env.example        # Environment variables template
-├── package.json        # Project dependencies and scripts
-└── tsconfig.json      # TypeScript configuration
-```
-
-### Core Services
-
-- **SeraBot**: Main bot class orchestrating all services
-- **DatabaseService**: Supabase database operations
-- **AIService**: OpenRouter API integration
-- **MemoryService**: User memory management
-- **PersonalityEngine**: Dynamic personality adaptation
-- **SecurityManager**: Rate limiting and content filtering
-- **MonitoringService**: Performance monitoring and health checks
-
-## Configuration
-
-### Environment Variables
-
-Key environment variables (see `.env.example` for full list):
-
-- `DISCORD_TOKEN` - Discord bot token
-- `DISCORD_CLIENT_ID` - Discord application client ID
-- `OPENROUTER_API_KEY` - OpenRouter API key (Required)
-- `OPENROUTER_ENDPOINT` - OpenRouter API endpoint (Default: https://openrouter.ai/api/v1)
-- `SUPABASE_URL` - Supabase project URL
-- `SUPABASE_SERVICE_KEY` - Supabase service role key
-
-### Bot Configuration
-
-Configure bot behavior through environment variables:
-
-- Response style and personality traits
-- Memory retention policies
-- Rate limiting thresholds
-- Security settings
-- Development options
-
-## API Reference
-
-### Discord Events
-
-The bot handles various Discord events:
-
-- **Message Create**: Processes user messages and generates AI responses
-- **Guild Create/Delete**: Manages guild-specific settings
-- **Member Add/Remove**: Updates user relationships
-- **User Update**: Tracks user profile changes
-
-### AI Integration
-
-Features advanced AI capabilities via OpenRouter:
-
-- Context-aware conversation handling
-- Dynamic personality adaptation
-- Memory-enhanced responses
-- Sentiment analysis
-- Keyword extraction
-
-## Security
-
-Security features include:
-
-- Rate limiting per user and guild
-- Content filtering for inappropriate content
-- User blocking and protection
-- Input validation and sanitization
-- Encrypted sensitive data storage
-
-## Monitoring
-
-Comprehensive monitoring provides:
-
-- Performance metrics collection
-- Health checks for all services
-- Error rate tracking
-- Resource usage monitoring
-- Alert system for issues
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Run the test suite
-6. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For support and questions:
-- Create an issue in the repository
-- Check the documentation
-- Review the troubleshooting guide
+- **Developer**: ShinHaneul
+- **Repository**: [GitHub Issues](https://github.com/ShinHaneul-39/Sera_Public/issues)
