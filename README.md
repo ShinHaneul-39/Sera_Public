@@ -22,7 +22,7 @@ Copyright (c) 2026 Sera Project. All rights reserved.
 
 ## 📞 문의 (Contact)
 
-Sera 봇에 대한 문의나 제안은 아래 채널을 이용해 주세요.
+Sera에 대한 문의나 제안은 아래 채널을 이용해 주세요.
 
 - **Developer**: ShinHaneul
 - **Repository**: [GitHub Issues](https://github.com/ShinHaneul-39/Sera_Public/issues)
